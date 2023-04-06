@@ -14,3 +14,41 @@
 body{
     font-family: 'Quando', serif;
 }
+
+header{
+    background-color: var(--first-color);
+    padding: 20px;
+}
+
+header nav{
+    max-width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    max-width: 730px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: var(--second-color);
+}
+
+.nav-links li button{
+    background-color: var(--second-color);
+    color: var(--third-color);
+    border: none;
+    border-radius: 8px;
+    padding: 12px 45px;
+    font-family: 'Quando', serif;
+    font-size: 14px;
+    cursor: pointer;
+}
