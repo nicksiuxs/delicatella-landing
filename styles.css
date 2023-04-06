@@ -1,0 +1,16 @@
+:root{
+    --first-color: #FED0C3;
+    --second-color: #513E2C;
+    --third-color: #FFFFFF;
+    --fourth-color: #FFB8CE;
+    --fifth-color: #9EEAFF;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Quando', serif;
+}
