@@ -79,6 +79,63 @@ header nav{
 }
 /* Fin header */
 
+/* Inicio hero */
+.section-hero{
+    background-color: var(--first-color);
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+}
+
+.hero-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-title h1{
+    width: 512px;
+    max-width: 512px;
+    font-family: 'Rancho';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 120px;
+    color: var(--second-color);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.center{
+    align-self: center;
+    line-height: 40px;
+    padding-left: 150px;
+}
+
+.small{
+    align-self: flex-end;
+    font-size: 48px;
+    line-height: 80px;
+    padding-right: 55px;
+}
+
+.hero-title .button{
+    width: fit-content;
+    align-self: center;
+}
+
+.categories{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1170px;
+}
+/* Fin hero */
+
 /* Inicio horario */
 .section-schedule{
     padding: 45px 0 37px 0;
