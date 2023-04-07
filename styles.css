@@ -4,6 +4,7 @@
     --third-color: #FFFFFF;
     --fourth-color: #FFB8CE;
     --fifth-color: #9EEAFF;
+    --sixth-color: #FCE5CE;
 }
 
 *{
@@ -54,6 +55,55 @@ header nav{
     cursor: pointer;
 }
 /* Fin header */
+
+/* Inicio caracteristicas */
+.section-characteristics{
+    background-image: url(./images/caracteristicas.png);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover
+}
+
+.characteristics{
+    max-width: 1170px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    gap: 10px;
+    padding: 108px 0 60px 0;
+}
+
+.characteristic-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 375px;
+    width: 355px;
+    border-radius: 25px;
+    padding: 12px 32px 37px 32px;
+    background-color: var(--first-color);
+}
+
+.yellow{
+    background-color: var(--sixth-color);
+}
+
+.characteristic-card h3{
+    font-family: 'Rancho', serif;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.characteristic-card p{
+    text-align: center;
+    font-size: 14px;
+}
+
+.characteristics-img{
+
+}
+/* Fin caracteristicas */
 
 /* Inicio footer */
 footer{
