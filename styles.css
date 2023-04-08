@@ -519,3 +519,15 @@ footer nav ul li a{
     font-size: 14px;
 }
 /* Fin footer */
+
+.float{
+	position:fixed;
+    width: fit-content;
+	height: fit-content;
+    background:none;
+    border: none;
+	bottom:48px;
+	right:48px;
+    z-index:100;
+    cursor: pointer;
+}
