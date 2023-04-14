@@ -80,15 +80,12 @@ header nav{
 /* Fin header */
 
 /* Inicio hero */
-.section-hero{
-    background-color: var(--first-color);
-}
-
 .hero{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 23px;
+    background-color: var(--first-color);
 }
 
 .hero-title{
@@ -126,6 +123,13 @@ header nav{
 .hero-title .button{
     width: fit-content;
     align-self: center;
+}
+
+.categories-img{
+    background-image: url("./images/vectores.png");
+    background-position: 0 -90px;
+    background-repeat: no-repeat; 
+    background-size: contain;
 }
 
 .categories{
